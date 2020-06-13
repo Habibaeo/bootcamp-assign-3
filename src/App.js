@@ -8,7 +8,7 @@ function App() {
               <h1>
           project 003 deployment
         </h1>
-        <dinner />
+        <Dinner />
     </div>
   );
 }
