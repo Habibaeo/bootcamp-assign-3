@@ -1,16 +1,27 @@
 import React from 'react';
+import logo from './logo.svg';
 import './App.css';
-import Dinner from './Dinner.js';
 
 function App() {
   return (
     <div className="App">
-              <h1>
-          project 003 deployment
-        </h1>
-        <Dinner />
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <h1>Class 2 Assignment</h1>
+        <p>
+         Hello World from M Ibrahim and M Uzair
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
-  );
+    );
 }
 
 export default App;
