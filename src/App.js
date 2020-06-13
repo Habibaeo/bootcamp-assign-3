@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Dinner from './dinner.js';
+import Dinner from './Dinner.js';
 
 function App() {
   return (
