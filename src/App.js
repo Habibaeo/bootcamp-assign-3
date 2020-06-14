@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Learning from './dinner.js';
+import Learning from './Dinner.js';
 
 function App() {
   return (
