@@ -1,25 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Learning from './dinner.js';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>Class 2 Assignment</h1>
-        <p>
-         Hello World from M Ibrahim and M Uzair
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello World</h1>
+      <Learning TeachingQuality= 'Superb'  TeachingApproach=  ' An Excellent Method'/>
     </div>
     );
 }
